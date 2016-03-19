@@ -16,6 +16,9 @@
     <Filter Include="JFC">
       <UniqueIdentifier>{6901853f-9383-4981-9faa-0d2e85850b7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3117b274-0d98-4457-8af6-1914a3e4b35d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JFC\JApplication.h">
@@ -33,6 +36,12 @@
     <ClInclude Include="JFC\JButton.h">
       <Filter>JFC</Filter>
     </ClInclude>
+    <ClInclude Include="UI\LoginForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="JFC\JForm.h">
+      <Filter>JFC</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JFC\JApplication.cpp">
@@ -48,6 +57,12 @@
       <Filter>JFC</Filter>
     </ClCompile>
     <ClCompile Include="JFC\JButton.cpp">
+      <Filter>JFC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoginForm.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="JFC\JForm.cpp">
       <Filter>JFC</Filter>
     </ClCompile>
   </ItemGroup>

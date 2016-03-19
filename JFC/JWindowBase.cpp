@@ -98,12 +98,12 @@ void JWindowBase::DrawHLine(SHORT y, SHORT x1, SHORT x2, char ch)
 	if (x1 < x2)
 	{
 		x = x1;
-		count = x1 - x2 + 1;
+		count = x2 - x1 + 1;
 	}
 	else
 	{
 		x = x2;
-		count = x2 - x1 + 1;
+		count = x1 - x2 + 1;
 	}
 
 	std::string str(count, ch);
@@ -119,12 +119,12 @@ void JWindowBase::DrawVLine(SHORT x, SHORT y1, SHORT y2, char ch)
 	if (y1 < y2)
 	{
 		y = y1;
-		count = y1 - y2 + 1;
+		count = y2 - y1 + 1;
 	}
 	else
 	{
 		y = y2;
-		count = y2 - y1 + 1;
+		count = y1 - y2 + 1;
 	}
 
 	CHAR_INFO ci;

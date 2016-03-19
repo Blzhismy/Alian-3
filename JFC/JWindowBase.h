@@ -68,7 +68,9 @@ public:
 	JWindowBase(SHORT x, SHORT y, SHORT width, SHORT height);
 	virtual ~JWindowBase();
 
+	// 设置前景色
 	void SetTextColor(WORD fColor) { fColor_ = fColor; }
+	// 获取前景色
 	WORD GetTextColor() const { return fColor_;  }
 
 	// 设置背景色
