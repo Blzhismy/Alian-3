@@ -27,7 +27,6 @@ private:
 	int code_;
 	JWindow* sender_;
 	bool done_;
-	
 };
 }
 #endif

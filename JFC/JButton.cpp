@@ -10,11 +10,12 @@ JButton::JButton(SHORT x, SHORT y, SHORT width, SHORT height
 	, const std::string text, JWindow* parent)
 	:JWindow(x,y,width,height,parent),text_(text)
 {
-
+	SetCanFocus(true);
 }
 
 JButton::~JButton()
 {
+	SetCanFocus(true);
 }
 
 void JButton::Draw()

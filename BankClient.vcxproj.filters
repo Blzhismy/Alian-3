@@ -42,6 +42,12 @@
     <ClInclude Include="JFC\JForm.h">
       <Filter>JFC</Filter>
     </ClInclude>
+    <ClInclude Include="JFC\JEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JFC\JLable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JFC\JApplication.cpp">
@@ -64,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="JFC\JForm.cpp">
       <Filter>JFC</Filter>
+    </ClCompile>
+    <ClCompile Include="JFC\JEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JFC\JLable.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

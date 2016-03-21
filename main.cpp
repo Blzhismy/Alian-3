@@ -1,5 +1,4 @@
 #include "JFC\JApplication.h"
-#include "JFC\JWindow.h"
 #include "JFC\JButton.h"
 
 #include "UI/LoginForm.h"
@@ -19,12 +18,8 @@ int main()
 	btn2.Show();
 	*/
 
-	//LoginForm login(0, 0, 80, 25);
-	//login.Show();
-
-	JWindow::Root_->DrawHLine(5, 5, 25, 'x');
-	JWindow::Root_->Refresh();
-
+	LoginForm login(0, 0, 80, 25);
+	login.Show();
 
 	return app.Exec();  //ÏûÏ¢Ñ­»·
 }

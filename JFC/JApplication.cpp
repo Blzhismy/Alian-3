@@ -22,6 +22,7 @@ JApplication::JApplication()
 	HideCursor();
 	root_ = std::make_unique<JWindow>(0,0,80,25,nullptr);
 	current_ = root_.get();
+
 	root_->Show();
 }
 
@@ -35,7 +36,14 @@ int JApplication::Exec()
 	while (1)
 	{
 		int key = _getch();
-
+		if (key == 224)     // 特殊按键： 上、下、左、右、F11、F12、home、Page Up、Page down、End、Delete、Insert 
+		{
+			key = 224 << 8 + _getch();
+		}
+		else if(key == 0)  // F1~F10
+		{
+			key = -1 * _getch();
+		}
 		if (current_)
 		{
 			JEvent e(key, current_);

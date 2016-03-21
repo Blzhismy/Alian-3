@@ -1,6 +1,5 @@
 #include "JWindowBase.h"
 
-
 using namespace JFC;
 
 JWindowBase::ScreenBuffer JWindowBase::sb_;
@@ -66,7 +65,6 @@ void JWindowBase::FillRect(JRECT rect)
 			sb_.write(x_ + x, y_ + y, ci);
 		}
 	}
-
 }
 
 

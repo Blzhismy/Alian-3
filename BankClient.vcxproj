@@ -21,8 +21,10 @@
   <ItemGroup>
     <ClInclude Include="JFC\JApplication.h" />
     <ClInclude Include="JFC\JButton.h" />
+    <ClInclude Include="JFC\JEdit.h" />
     <ClInclude Include="JFC\JEvent.h" />
     <ClInclude Include="JFC\JForm.h" />
+    <ClInclude Include="JFC\JLable.h" />
     <ClInclude Include="JFC\JWindow.h" />
     <ClInclude Include="JFC\JWindowBase.h" />
     <ClInclude Include="UI\LoginForm.h" />
@@ -30,7 +32,9 @@
   <ItemGroup>
     <ClCompile Include="JFC\JApplication.cpp" />
     <ClCompile Include="JFC\JButton.cpp" />
+    <ClCompile Include="JFC\JEdit.cpp" />
     <ClCompile Include="JFC\JForm.cpp" />
+    <ClCompile Include="JFC\JLable.cpp" />
     <ClCompile Include="JFC\JWindow.cpp" />
     <ClCompile Include="JFC\JWindowBase.cpp" />
     <ClCompile Include="main.cpp" />

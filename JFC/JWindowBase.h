@@ -6,6 +6,9 @@
 
 using JRECT = SMALL_RECT;
 
+
+
+
 //ºÚÉ«
 //À¶É«
 //ÂÌÉ«
@@ -57,6 +60,34 @@ using JRECT = SMALL_RECT;
 #define BCOLOR_LIGHTMAGENTA         BCOLOR_MAGENTA + BACKGROUND_INTENSITY
 #define BCOLOR_YELLO                BCOLOR_BLOWN + BACKGROUND_INTENSITY
 #define BCOLOR_WHITE                BCOLOR_GRAY + BACKGROUND_INTENSITY
+
+
+
+
+
+
+#define KEY_ENTER 13
+#define KEY_ESC 27
+#define KEY_(n) (48+n)
+#define KEY_UP ((224<<8)+72)    // 57416
+#define KEY_DOWN ((224<<8)+80)  // 57424
+#define KEY_LEFT ((224<<8)+75)  // 57419
+#define KEY_RIGHT ((224<<8)+77) // 57421
+#define KEY_DEL ((224<<8)+83)   // 57427
+#define KEY_BACK 8
+#define KEY_TAB 9
+#define KEY_HOME ((224<<8)+71)  // 57415
+#define KEY_PGUP ((224<<8)+73)  // 57417
+#define KEY_END  ((224<<8)+79)  // 57423
+#define KEY_PGDN ((224<<8)+81)  // 57425
+#define KEY_F11  ((224<<8)+133) // 57477
+#define KEY_F12  ((224<<8)+134) // 57478
+#define KEY_F(n) ((-58-n))      // -(59~68)
+#define KEY_INS  ((224<<8)+82)  // 57425
+
+
+
+
 
 namespace JFC
 {

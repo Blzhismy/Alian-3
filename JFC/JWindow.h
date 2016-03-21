@@ -25,6 +25,12 @@ public:
 
 	void SetCurrent();
 	bool IsCurrent();
+	bool SetCanFocus(bool canFocus) { return canFocus_ = canFocus; }
+
+	JWindow* FindFirst();
+	JWindow* FindLast();
+	JWindow* FindPrev(JWindow* win);
+	JWindow* FindNext(JWindow* win);
 
 
 public:
@@ -33,6 +39,7 @@ public:
 protected:
 	JWindow* parent_;
 	std::vector<JWindow*> childs_;
+	bool canFocus_;
 };
 }
 #endif
